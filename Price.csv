@@ -1,9 +1,9 @@
-City,Median SP
-Danville,"$1,240,000"
-Dublin,"$939,500"
-Fremont,"$960,000"
-Hayward,"$560,000"
-Livermore,"$717,000"
-Pleasanton,"$1,050,000"
-SanRamon,"$1,020,000"
-UnionCity,"$782,000"
+month,value
+Danville,1240000
+Dublin,939500
+Fremont,960000
+Hayward,560000
+Livermore,717000
+Pleasanton,1050000
+SanRamon,1020000
+UnionCity,782000
