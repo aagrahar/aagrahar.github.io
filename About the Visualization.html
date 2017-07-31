@@ -5,6 +5,21 @@
     <link rel="stylesheet" href="style.css">
     <script src="script.js"></script>
 	<style>
+			.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
  h1{font: darkgrey;
     color: black;
     text-align: center;
@@ -70,6 +85,14 @@ div.desc {
 	<br><a href="https://www.w3schools.com">W3 Schools</a>
 	<br>Also, used google images to have a picture on this page.</I>
 	
+<div class="pagination">
+  <a href="#">&laquo;</a>
+  <a class="active" href="#">1</a>
+  <a href="https://aagrahar.github.io/MonthSell.html">2</a>
+  <a href="https://aagrahar.github.io/SellingPrice.html">3</a>
+  <a href="https://aagrahar.github.io/SoldByCity.html">4</a>
+  <a href="#">&raquo;</a>
+</div>
 	</p>
 	
   </body>
