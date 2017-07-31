@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
 <style>
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+	
 p {color: black;
  font-size: 19px;
    }
@@ -193,11 +208,20 @@ d3.csv("Months.csv", function(error, data) {
 });
 </script>
 <p>This bar chart demonstrates total number of houese sold per month in 2016 for 8 popular cities in east bay. As you can see from the chart that maximum number of houses was sold in the month of June. Market was at its peak during spring and summer and lowest during winter. So, season does play an important role in the real estate market.
-<br>
+<br></br>
 During peak season inventory is higher and it gives better opportunity to a buyer to find the right home. Peak season is favorable for sellers as well, due to shorter marketing time and a higher likelihood of finding a good buyer.
   </p> 
-<br></br>
+<br>
 <a href="https://aagrahar.github.io/SellingPrice.html">Median selling price in each city </a><br></br>
 <a href="https://aagrahar.github.io/SoldByCity.html">Number of houses sold in each city</a><br/><br/>
 <a href="https://aagrahar.github.io/About%20the%20Visualization.html">Back to Home Page</a><br/><br/>
+
+<div class="pagination">
+  <a href="https://aagrahar.github.io/About%20the%20Visualization.html">&laquo;</a>
+  <a href="https://aagrahar.github.io/About%20the%20Visualization.html">1</a>
+  <a class="active" href="https://aagrahar.github.io/MonthSell.html">2</a>
+  <a href="https://aagrahar.github.io/SellingPrice.html">3</a>
+  <a href="https://aagrahar.github.io/SoldByCity.html">4</a>
+  <a href="https://aagrahar.github.io/SellingPrice.html">&raquo;</a>
+</div>
 </body>
